@@ -1,0 +1,577 @@
+
+@import url('https://fonts.googleapis.com/css?family=Della+Respira|Montez|Noto+Serif|Quattrocento|Rubik|Sacramento|Volkhov');
+
+
+/* google fonts options    */
+
+/* 
+
+font-family: 'Quattrocento', serif;
+
+font-family: 'Volkhov', serif;
+
+font-family: 'Sacramento', cursive;
+
+font-family: 'Della Respira', serif;
+
+font-family: 'Rubik', sans-serif;
+
+font-family: 'Montez', cursive;
+
+font-family: 'Noto Serif', serif;
+ */
+body{
+
+    background: rgb(231, 230, 230) ;
+}
+
+#background{
+    box-shadow: 0px 0px 25px 0px rgb(192, 186, 186);
+    background: #fff;
+}
+div .jumboTron{
+    background-image: linear-gradient(to left,#4289A2 50%,rgb(77, 202, 146));
+    border-top: 50px solid transparent; 
+    /* border-left: 400px solid linear-gradient(-90deg,#146EFF, #33D0FF);  */
+    border-bottom: 50px solid transparent;
+    z-index: -1;
+    /* padding-top:-40px; */
+    margin-top:-10px;
+    height: 130vh;
+
+
+
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 26%, 0 46%);
+    clip-path: polygon(0 0, 100% 0, 100% 26%, 0 46%);
+
+
+
+    /* https://webaim.org/blog/user-agent-string-history/ */
+
+    /* Every browser is backed by a rendering engine to draw the HTML/CSS web page.
+
+    IE → Trident (discontinued)
+    Edge → EdgeHTML (clean-up fork of Trident)
+    Firefox → Gecko
+    Opera → Presto (no longer uses Presto since Feb 2013, consider Opera = Chrome nowadays)
+    Safari → WebKit
+    Chrome → Blink (a fork of WebKit).
+
+See Comparison of web browser engines for a list of comparisons in different areas.
+
+    The ultimate question... is WebKit supported by IE?
+ */
+
+}
+#nav{
+    background-image: linear-gradient(to left,#4289A2 50%,rgb(77, 202, 146));
+    /* display: flex; */
+    /* flex-flow: row wrap; */
+    /* align-items: center; */
+    color:floralwhite;
+    display: flex;
+    z-index: 2;
+}
+.navbar{
+    color:floralwhite;
+}
+
+nav div ul{
+    margin-right:80px;
+   
+
+}
+nav>div>ul>li>a:hover{
+    background:floralwhite;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    color:#4289A2 !important;
+
+}
+.navBrand{
+    margin-left:100px;
+    width: 22px; 
+    height: 22px; 
+    /* background: floralwhite; */
+    background-image: linear-gradient(white, floralwhite, #4BEBA3); 
+    border-radius: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.brandNucleus{
+    /* margin-left:60px; */
+    width: 11px; 
+    height: 11px; 
+    background:#4BEBA3; 
+    
+    border-radius: 50%;
+    /* display: flex;
+    align-self: center;
+    justify-self: center; */
+}
+
+#jumbotronBackground{   
+    background-color:#fff;
+    height:100vh;
+    z-index:1;
+    /* display: flex; */
+    /* flex-direction:column; */
+    /* align-items:flex-end; */
+
+}
+
+#start{
+    background-image: linear-gradient(to right,#4289A2 20%,rgb(73, 221, 155));
+    color:white;
+    box-shadow: 0px 3px 25px 0px #000;
+}
+
+#start:hover{
+    background-image: linear-gradient(to right,#4289A2 20%,rgb(73, 221, 155));
+    color:white;
+    box-shadow: 0px 3px 20px 0px #fff;
+}
+
+
+#feature{
+    background:white;
+    position: relative;;
+    width: 450px;
+    height: 300px;
+    /* display: flex; */
+    /* align-self:flex-end; */
+    /* justify-self: center; */
+    /* align-items:center; */
+    /* order:-4; */
+    /* margin-top: 80%;  */
+    z-index: 3;
+    /* margin:auto auto 0 auto; */
+    /* margin-bottom: 0%; */
+    margin-top:-35.5%;
+    margin-left:30%;
+    display: flex;
+    justify-self: center;
+    box-shadow: 0px -5px 10px 0px rgba(88, 88, 88, 0.87);
+    
+}
+
+#highlightText{
+    justify-self: center;
+    text-align:center;
+    margin-top:-5%;
+    color:floralwhite;
+}
+
+#title{
+    font-family: 'Noto serif',serif;
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+/* the fist line of two after feature card below jumbotron */
+#firstLine{
+    margin-top:0px;
+    
+}
+
+.line{
+    border: 0; 
+    height: 1px; 
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0));
+}
+
+.linebreak{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;                            
+    flex-flow: row wrap;
+    margin-left:38px;
+  }
+.brandText{
+    width: 13%;
+    /* font-size: 12px;s */
+    text-align: center;
+   
+}
+
+#instagram{
+    font-family: 'Montez', cursive;
+}
+
+#dell{
+    /* font-family: 'Quattrocento', serif; */
+
+    /* font-family: 'Volkhov', serif; */
+
+    /* font-family: 'Sacramento', cursive; */
+
+    font-family: 'Della Respira', serif;
+    font-weight: bold;
+
+    /* font-family: 'Rubik', sans-serif; */
+
+    /* font-family: 'Montez', cursive; */
+
+    /* font-family: 'Noto Serif', serif; */
+}
+
+#unclever{
+    /* font-family: 'Noto Serif', serif; */
+
+    font-family: 'Sacramento', cursive;
+}
+#uber{
+     font-family: 'Noto Serif', serif;
+}
+
+
+/* Product featureing highlights parts here*/
+
+
+#card-group{
+    display: flex;
+    justify-content: center;
+    flex-flow:row wrap;
+    /* border-width: 0; */
+    text-align:center;
+}
+
+.myCard{
+
+    margin:0px 20px 20px 20px;
+    max-width: 200px;
+    max-height: 250px;
+    padding:2px;
+    border:0;
+    box-shadow: 1px 1px 80px 0px rgb(200, 200, 200);
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 14px;
+
+}
+
+.myCard>img{
+    width: 45px;
+    height: 35px;
+    display: flex;
+    align-self:center;
+    justify-self: center;
+    margin-top:10%;
+    flex-basis: 0px;
+}
+div>div>h5{
+    font-family: 'Noto serif',serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#productFeature{
+    text-align:center;
+    padding: 20px 0 20px 0;
+    font-family: 'Noto serif',serif;
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+
+/* -------------------------------------- */
+/* Product highlight */
+
+
+
+#section-2{
+    /* height: 600px; */
+    display: flex;
+    /* flex-direction: column wrap; */
+    /* justify-content: center; */
+    /* margin:auto 0; */
+    /* background:grey;  */
+    padding-top:30px;
+    margin:80px auto 5% auto;;
+    text-align: center;
+}
+#section-3{
+    display: flex;
+    flex-direction: column;
+    /* padding: 30px auto 90px auto; */
+    margin:20px auto 10px auto;
+    justify-content: center;
+    
+
+}
+
+.discover{
+    display: flex;
+    /* flex-basis: row wrap; */
+    margin:30px 0 30px 0;
+    /* align-items:  */
+}
+
+/* #section-3>.discover> */
+.how-img{
+    /* display: flex; */
+    /* align-self: center; */
+    align-items: center;
+    justify-self: center;
+    /* text-align: center;s */
+    width: 300px;
+    height: 400px;
+    margin: 20px 0 20px 0;
+    overflow: hidden;
+}
+
+
+
+#section-3>.discover>.how-img>div{
+/* background: blue; */ 
+display: flex;
+flex-flow: column wrap;
+margin: 20% auto 20% auto;
+font-size: 20px;
+/* align-self: center; */
+}
+
+
+#card-group-2{
+    display: flex;
+    justify-content: center;
+    flex-flow:row wrap;
+    /* border-width: 0; */
+    text-align:center;
+    /* height:100vh; */
+}
+
+.pricingCard{
+
+    margin:0px 20px 20px 20px;
+    max-width: 400px;
+    max-height: 460px;
+    padding:10px 10px -20px 10px;
+    border:0;
+    box-shadow: 1px 1px 80px 0px rgb(200, 200, 200);
+    overflow: hidden;
+    text-align: left;
+    padding-bottom: 30px;
+    font-size: 14px;
+    position: relative;
+
+}
+
+/* #card-group-2>.pricingCard>.card-body> */
+.dealCaption{
+
+    margin:20px 0px 60px 0px;
+}
+
+.pricing-title{
+    color:rgb(77, 202, 146);
+    font-size: 20px;
+}
+.fasCheck{
+    color:rgb(77, 202, 146);
+    font-size: 20px;
+    padding-right:10px;
+}
+div>div>h1{
+    /* color: red; */
+    padding-top:20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+div>div>h1>span{
+    font-size: 2em;
+}
+/* #card-group-2>.pricingCard>.card-body>.priceLine{
+    border: 0; 
+    height: 1px; 
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0));
+} */
+.Btn{
+    width: 100%;
+    padding:12px 10px;
+}
+#priceBtn1{
+    background-image: linear-gradient(to left,#4289A2 20%,#49dd9b);
+}
+
+#priceBtn2{
+    background-image: linear-gradient(to right,#4289A2 20%,rgb(77, 198, 202));
+}
+
+.pricingBk{
+
+    /* background-color:floralwhite; */
+/* height:100vh; */
+z-index:1;
+margin-top:-50%;
+   
+    
+}
+
+
+#section-4{
+  
+/* display: flex; */
+/* flex-direction:column; */
+/* align-items:flex-end; */
+margin-top:-60%;
+}
+
+
+#lastPolygon{
+/* margin-top:-50%; */
+/* background-image: linear-gradient(to left,#4289A2 50%,rgb(77, 202, 146));  
+  */
+  background: #DCDCDC ;
+-webkit-clip-path: polygon(100% 68%, 0% 100%, 100% 100%);
+clip-path: polygon(100% 68%, 0% 100%, 100% 100%);
+height: 100vh;
+width: 100%;
+margin-top:30px; 
+}
+
+
+#topCard{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-self: center;
+    margin: auto 0;
+}
+
+.footer{
+    padding:55px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+    
+    #feature{
+        background:white;
+        position: relative;;
+        width: 450px;
+        height: 300px;
+      
+        z-index: 3;
+ 
+        margin-top:-35.5%;
+        margin-left:30%;
+        display: flex;
+        justify-self: center;
+        box-shadow: 0px -5px 10px 0px rgba(88, 88, 88, 0.87);
+
+    }
+    
+  }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    
+  
+    #feature{
+        background:floralwhite;
+        position: relative;
+        width: 100%;
+        height: 250px;
+        z-index: 3;
+        /* margin:auto auto 0 auto; */
+        /* margin-bottom: 0%; */
+        /* margin-top:-35.5%; */
+        margin-left:0%;
+        display: flex;
+        margin-top:-50%;
+        justify-self: center;
+        box-shadow: 0px -15px 10px 0px rgba(65, 63, 63, 0.87);
+
+
+    }
+    .brandText{
+        width: 100%;
+        /* font-size: 12px;s */
+        text-align: center;
+        display: flex;
+        flex-flow: column wrap;
+
+    }
+
+}
+@media screen and (max-width: 767px) {
+    .discover{
+        margin: -10px 0px 2px 0px;
+        align-items: center;
+    }
+
+    #section-3>.discover>.how-img>div{
+        /* background: blue; */ 
+        /* display: flex;
+        flex-flow: column wrap;
+        margin: 20% auto 20% auto;
+        font-size: 20px; */
+        /* align-self: center; */
+        text-align:center;
+        margin: 0% auto 2% auto;
+        z-index: 3;
+        }
+        
+    .how-img{
+    
+        margin:0px 0 2px 0px;
+
+    }
+    .images{
+        order:-1;
+        margin-bottom: -50%;
+
+    } 
+    #feature{
+        background:floralwhite;
+        position: relative;
+        width: 100%;
+        height: 200px;
+        /* display: flex; */
+        /* align-self:flex-end; */
+        /* justify-self: center; */
+        /* align-items:center; */
+        /* order:-4; */
+        /* margin-top: 80%;  */
+        z-index: 3;
+        /* margin:auto auto 0 auto; */
+        /* margin-bottom: 0%; */
+        /* margin-top:-35.5%; */
+        margin-left:0%;
+        display: flex;
+        margin-top:-70%;
+        justify-self: center;
+        box-shadow: 0px -15px 10px 0px rgba(65, 63, 63, 0.87);
+        
+        
+      }
+      .brandText{
+        width: 100%;
+        /* font-size: 12px;s */
+        text-align: center;
+        display: flex;
+        flex-flow: column wrap;
+       
+    }
+
+#highlightText{
+    justify-self: center;
+    text-align:center;
+    margin-top:-15%;
+    color:floralwhite;
+    font-size:10px;
+}
+
+    div .jumboTron{
+        margin-top:-10px;
+    }
+  }
